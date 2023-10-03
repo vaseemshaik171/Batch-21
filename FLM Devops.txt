@@ -1,0 +1,88 @@
+*************Devops**************
+
+Devops Life Cyle 
+There are Two teams to develop any applicatin 1. Develoer team 2. Operational
+1.Plan
+2.Code 
+3.Build 
+4.Test
+
+5.Relese
+6.Deploy
+7.Monitor
+
+Combination of Development Team and operational team is called Devops.
+
+
+
+**************Linux ***********************
+Linux is a free open source operating System it is highly secured , it is a multi used os.
+
+os - interface b/w user & Computer Hardware
+
+Kernal : Core of Hardware
+Demon : Background Running Services
+Shell : Used to exeute commands , shell scripting 
+
+Command 
+
+(System)
+
+1.sudo su ----> King of Linux with all permission 
+2.uname ----> Which OS eg : linux
+3.uptime ----> To know when the server has started & number of users in a server.
+4.Ctrl + L ---> to clear the screen.
+5.hostnamectl set-hostname flm   ---> to chnge host name , exit and again enter to root user . eg :Atos-Paytm-Dev-App 
+6.last reboot ----> to know the when the server is rebot and who did those activity , time etc.
+7.timedatectl ----> to know the time & Date 
+8.timedatectl set-timezone Asia/Kolkata ----> to change ust to indian standard time .
+
+(Hardware)
+
+1.cat /proc/cpuinfo ---> to know the info about cpu , hardaware & Proeswor
+  cat = used to read the file .
+  proc = it is a folder of proessor info.
+  cpuinfo = it contain cpu information.
+2. pa ---> to know the processors
+3.kill -9 PID ---> to kill the processor
+
+(File Commands )
+
+1.rm file name ----> this command is used to remove a file 
+2. rm -f file name ----> this command is used to delete the file with out permission . ( f means forcable )
+3. rm -f file{1..7} ---> this command is used to delete a file in serial wise 
+4. rm -rf * ----> to remove both the files & folders .
+5.touch aws ----> is used to create a file 
+   -> to see data in file cat aws
+   -> cat>aws ---> to insert data in file 
+   -> ctrl + D ---> to save a file .
+   -> cat>>aws ---> adding extra data in file
+6. cp source destination eg :- cp aws vaseem ---> to copy one file to another file.
+7. cat aws >> linux ---> copy one file to another file without interepting the Data.
+8. cat aws | tee file1 file2 file3  ---> to copy data into multiple empty file.
+9. vim (editor) --> it is used to modify the data in a file
+   -> it has 3 modes 1. command mode 2. insert mode 3.Quit or Exit Mode.
+
+(User Commands)
+
+1.cat /etc/passwd ---> to know number of users present in server.
+2. useradd flm ----> to create a new user ---> to know user created r not chek with above command
+3. su - flm ----> to connect with that user.
+4. passwd flm  ----> to set a password to the user.
+5. useradd -M flm  ---> only user create , group or dirctory will not create .
+6.echo folder{2..7} | xargs -n 1 p-v folder1/*  ---> to copy one folder with files to multiple folders .
+7. chmod -R devops:aws folder1 ----> to change owner name & group name with files at same 
+   **********directory**********
+  - home  - user home directory.
+  - bin   - it store all commands executed by the user .
+  - sbin  - it store all the commands executed by the super users.
+
+
+*****************************VPC By Sunil koppavarupu**********************
+
+
+
+
+
+
+
